@@ -1,0 +1,125 @@
+/* <color name="my_color1">#7579E7</color>
+<color name="my_color2">#9AB3F5</color>
+<color name="my_color3">#A3D8F4</color>
+<color name="my_color4">#B9FFFC</color> */
+
+body{
+    background-color: #9AB3F5;
+    margin: 0;
+    padding-top: 80px;
+    /* display: flex; */
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #7579E7;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    margin: 0 5px;
+    padding: 5px 20px ;
+    border-radius: 0px 7px;
+    box-sizing: border-box;
+}
+nav h1{
+    position: absolute;
+    left: 50px;
+    color: white;
+}
+@media screen and (max-width: 550px) {
+    nav a{
+        display: none;
+    }    
+   
+}
+.video{
+    display: flex;
+}
+video{
+    aspect-ratio: 16/9;
+    margin: auto auto;
+    width: 70%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.download a{
+    min-width: 229px;
+    font-size: 2rem;
+    background-color: #7579E7;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.img img{
+    border-radius: 20px;
+    border: 5px solid white;
+    width: 20%;
+}
+
+.about{
+    display: flex;
+    background-color: #7579E7;
+    margin: 52px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .profile img{
+    margin: 30px 50px;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+}
+.about .profile h3{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.about .about_me{
+    font-size: 1.5rem;
+    color: black;
+    padding: 20px;
+    color: white;
+}
+
+.copy_right{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #7579E7;
+    color: white;
+    margin-top: 20px;
+}
+.copy_right h2{
+    margin: 0;
+    padding: 10px 0;
+}
